@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');table, th, td{
+    border:2px solid black;
+}
+.effectcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgba(250, 235, 215, 0.8);
+    font-family: 'Poppins', sans-serif;
+}
+table{
+    font-size: 20px;
+}

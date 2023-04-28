@@ -1,44 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');
-*{margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
-}
-.mainpage{
-    width: 100%;
-    height: 100vh;
-    background: url('./eduardo-soares-utWyPB8_FU8-unsplash.jpg');
-    background-size: cover;
-}
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    width: 100%;
-    height: 50px;
-}
-.navbar ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navbar ul li{
-    margin-left: 30px;
-    list-style: none;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.topnav{
-    width: 100%;
-    height: 160px;
-    color: white;
-}
-.topnav h1{
-    text-align: center;
-    font-size:45px;
-    padding-top: 15px;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+.webWrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.pages {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #072144;
+}
+
+.topLogo {
+    width: 100%;
+    height: 150px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navlinkul {
+    display: flex;
+    color: white;
+    background-color: #3D5A80;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 150px;
+}
+
+.navlinkul li {
+    list-style: none;
+}
+
+.navlinkul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navlinkul2 {
+    margin-top: 10px;
+    background-color: #3d5a80;
+}
+
+.page1 {
+    padding: 10px;
+}
+
+.navlinkul2 a {
+    position: relative;
+}
+
+.homeBox {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitebox {
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.dropBox {
+    width: 450px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.604);
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.dbinside {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dbinside h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.dbleft {
+    border-right: 2px solid rgb(54, 54, 54);
+}
+
+.accountbox {
+    position: relative;
+}
+
+.accountbox:hover .dropBox {
+    opacity: 1;
+}
+
+.dbleft-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+.dbleft-contents li {
+    text-align: left;
+}
+
+.sai {
+    margin-bottom: 10px;
+}
+
+.saini {
+    margin-top: 20px;
+}
+
+.sas {
+    margin-top: 20px;
+}
+
+.digibox {
+    position: relative;
+}
+
+.dbdigital {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.604);
+    position: absolute;
+    left: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.digibox:hover .dbdigital {
+    opacity: 1;
+}
+
+.dbdigital ul {
+    width: 100%;
+    height: 100%;
+}
+
+.dbdigital ul li {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
